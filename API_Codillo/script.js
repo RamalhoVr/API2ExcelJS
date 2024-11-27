@@ -4,10 +4,10 @@ const fs = require('fs');
 
 // Função para obter o token de acesso
 async function obterToken() {
-    const dados = qs.stringify({
+    const data = qs.stringify({
         grant_type: 'client_credentials',
-        id: 'CF312A0F135E1970',
-        secret: 'c3c0b95f8d9caefd3e3491f3f0391563'
+        id: 'Coloque seu ID', 
+        secret: 'coloque SEU Secret' 
     });
 
     const config = {
